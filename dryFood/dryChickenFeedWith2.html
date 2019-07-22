@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta charset="utf-8">
+    <title>Интернет-магазин Песмаркет</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="header-top  hidden-xs">
+            <ul>
+                <li>Ваш город: Гродно</li>
+                <li>Магазины и пункты</li>
+                <li>Доставка и оплата</li>
+
+            </ul>
+        </div>
+        <div class="center-header row">
+            <div class="col-xs-2 col-lg-2 logo">
+                <a href="../index.html"><img src="../image/logo.jpg" height="130px" width="130px"></a>
+            </div>
+            <div class="col-lg-8">
+                <input name="search" placeholder="Найдется всё для вашего любимчика">
+            </div>
+            <div class="col-lg-2 basket">
+                <a href="#basket">
+                    <svg id="basket-2" viewBox="0 0 25 24" width="30px">
+                        <path id="Иконка" class="cls-1" d="M812.707,571.127a1.292,1.292,0,0,0-.983-0.46H793.752l-0.254-1.553A1.309,1.309,0,0,0,792.216,568H789.29a1.334,1.334,0,0,0,0,2.667h1.824l2.42,14.885a1.151,1.151,0,0,0,.058.165,1.235,1.235,0,0,0,.07.2,1.4,1.4,0,0,0,.156.239,1.484,1.484,0,0,0,.124.149,1.153,1.153,0,0,0,.251.172,0.977,0.977,0,0,0,.145.087,1.215,1.215,0,0,0,.478.1h14.307a1.334,1.334,0,0,0,0-2.667h-13.2l-0.216-1.333h14.721a1.312,1.312,0,0,0,1.287-1.143l1.3-9.335A1.358,1.358,0,0,0,812.707,571.127Zm-2.482,2.206L809.855,576h-4.634v-2.667h5Zm-6.3,0V576h-3.9v-2.667h3.9Zm0,4V580h-3.9v-2.667h3.9Zm-5.2-4V576h-3.9a0.608,0.608,0,0,0-.192.04l-0.44-2.707h4.534Zm-3.883,4h3.883V580h-3.45ZM805.221,580v-2.667h4.446L809.3,580h-4.075Zm-8.453,8a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,796.768,588Zm11.7,0a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,808.473,588Z" transform="translate(-788 -568)"></path>
+                    </svg><span> Корзина</span></a>
+            </div>
+        </div>
+        <div>
+            <nav>
+
+                <ul>
+                    <ul class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> КАТАЛОГ</a>
+                        <li>Сухие рационы</li>
+                        <li>Влажные рационы</li>
+                        <li>Витамины и добавки</li>
+                        <li>Средства по уходу</li>
+                        <li>Лакомства</li>
+                        <li>Игрушки</li>
+
+                    </ul>
+                    <li><a href="">КАТАЛОГ</a></li>
+                    <li><a href="">КОРМЛЕНИЕ</a></li>
+                    <li><a href="">УХОД</a></li>
+                    <li><a href="">ВОСПИТАНИЕ</a></li>
+                    <li>
+                        <a href="signin/signin.html">
+                            <div class="cabinet">
+                                <a href="">
+                                    <svg id="user" viewBox="0 0 24 24">
+                                        <path id="Иконка" class="cls-1" d="M912,153a12,12,0,1,0,12,12A12,12,0,0,0,912,153Zm0.036,17.661h-5.2c0-3.748,3.292-3.747,4.023-4.728l0.084-.447a3.581,3.581,0,0,1-1.751-3.241c0-1.932,1.257-3.5,2.807-3.5s2.807,1.567,2.807,3.5a3.6,3.6,0,0,1-1.724,3.229l0.1,0.508c0.8,0.933,3.984.994,3.984,4.679h-5.126Z" transform="translate(-900 -153)"></path>
+                                    </svg><span>Вход в личный кабинет</span></a>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <h1> PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей </h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4"><img src="image/dryChickenFeedWith2.jpeg"></div>
+    
+
+         <div class="col-lg-8">
+                <div class="description">
+                     <p> Рацион PEDIGREE® полнорационный корм с курицей создан с учетом потребностей щенков в период наиболее интенсивного роста.
+
+                Он состоит из качественных и натуральных ингредиентов: мяса, овощей, злаков. Поэтому PEDIGREE® полнорационный корм с курицей способствует здоровому росту и гармоничному развитию вашего малыша.
+
+                Он также создан с учетом особенностей пищеварения самых маленьких, легко усваивается и обеспечивает правильную работу их желудочно-кишечного тракта.
+
+                   </p>
+                    </div>
+
+</div>
+</div>
+
+
+<section class="specs hidden-xs hidden-sm">
+            <ul class="list-inline specTabs row">
+                        <li id="#item1" > Преимущества продукта</li>
+                        <div id="item1" class="item" >
+                                <p class="opacity-50 accordion-content"><b>Крепкие зубы</b><br> 
+Баланс кальция и фосфора для поддержания здорового развития зубов.<br><br>
+        
+<b>Здоровье кожи и шерсти</b><br>
+Линолевая кислота, цинк и витамины группы В необходимы для здоровья кожи и шерсти.<br><br>
+        
+<b>Отличное пищеварение</b><br>
+Высокоусвояемые ингредиенты и клетчатка для оптимального пищеварения.<br><br>
+        
+<b>Поддержка иммунной системы</b><br>
+Витамин E и цинк поддерживают иммунную систему.<br><br>
+
+</p>
+                    </div>
+                        <li id="#item2" > Рекомендации по кормлению</li>
+                        <li id="#item3"> Питание</li>
+                        <li id="#item4" > Отзывы</li>
+
+
+            </ul>
+            <div class="specContent">
+
+                    
+
+
+                    <div id="item2" class="item" >
+                                <p><b>Как переводить щенка на рацион PEDIGREE<sup>®</sup></b><br><br>
+ 
+Переводя щенка на рацион PEDIGREE<sup>®</sup>, постепенно (в течение 5–10 дней) увеличивайте долю корма в привычной для щенка еде.<br><br>
+</p><div class="image" alt="PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей"> 
+<img src="/assets/img/products/module/pedigree-dlja-senkov-vseh-porod-s-2-mesjacev-polnoracionnyj-korm-s-kuricej.jpg" style="max-width: 100%;"> 
+</div>
+
+<b>ВАЖНО:</b> Не забывайте, что в миске вашего питомца постоянно должна быть <b>свежая вода.</b><br><br>
+ 
+<p><b>Рекомендуемое количество рациона (г/день):</b></p><br>
+
+<p>В качестве мерной емкости можно использовать стакан или кружку объемом 250 мл. Она соответствует приблизительно 90 г продукта PEDIGREE<sup>®</sup>.</p><br>
+<p><b>При кормлении только сухим кормом PEDIGREE<sup>®</sup></b></p>
+<div class="image" alt="PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей"> 
+<img src="/assets/img/products/module/pedigree-dlja-senkov-vseh-porod-s-2-mesjacev-polnoracionnyj-korm-s-kuricej1.jpg"> 
+</div>
+<br>
+<p><b>При смешанном кормлении сухим кормом PEDIGREE<sup>®</sup> и пакетиками влажного корма (г+пакетиков/ день)</b></p>
+<div class="image" alt="PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей"> 
+<img src="/assets/img/products/module/pedigree-dlja-senkov-vseh-porod-s-2-mesjacev-polnoracionnyj-korm-s-kuricej2.jpg"> 
+</div>
+<b>ВАЖНО:</b> Необходимо помнить, что потребности щенка могут изменяться в зависимости от сезона, физических нагрузок и условий содержания.  <br><br>
+
+<b>Щенность и лактация:</b> Рацион PEDIGREE<sup>®</sup> полнорационный корм с курицей можно предложить щенным и лактирующим собакам. <b>Энергетические потребности собаки значительно возрастают</b> в этот период.<br><br>
+
+Оптимальный способ кормления для щенков — это комбинирование сухих и влажных рационов. Подробнее об этом вы можете прочитать в нашей <a href="https://www.pedigree.ru/shenki/kak-pravilno-kormit/socetanie-suhogo-i-vlaznogo-racionov-optimalnoe-pitanie-senka/">статье</a>.<br><br>
+
+С раннего детства необходимо следить за здоровьем зубов вашей собаки. После смены зубов вы сможете проверять состояние ротовой полости щенка с помощью <a href="https://www.pedigree.ru/o-nas/obuchayushie-apps/proverite-zubi-sobaki/">приложения</a>.<p></p>
+                    </div>
+
+
+
+                    <div id="item3" class="item" >
+                                <p><b>Состав:</b> куриная мука, пшеница, рис, свекольный жом, кукуруза, мясная мука, подсолнечное масло, жир животный, пивные дрожжи, минералы, витамины, глюкозамин.<br><br>
+ 
+<b>Пищевая ценность (на 100 г):</b> белки – 30 г; жиры – 12 г; зола – 7 г; клетчатка – 4 г; влажность – не более 10 г; кальций – 1,3 г; фосфор – 0,9 г; натрий – 0,3 г; калий – 0,55 г; магний – 0,12 г; цинк – 25 мг; медь – 2,0 мг; витамин А – 1500 МЕ; витамин Е – 20 мг; витамин D3 – 150 МЕ; витамин В1 – 1,0 мг; витамин В2 – 1,35 мг; витамин В5 – 7,5 мг; витамин В12 – 8 мкг; ниацин – 5,3 мг; холин – 350 мг; омега-6, омега-3 полиненасыщенные жирные кислоты; глюкозамин.<br><br>
+ 
+<b>Энергетическая ценность (на 100 г):</b> 365 ккал / 1528 кДж.<br></p>
+                    </div>
+
+                <div id="item4" class="item" >
+                    <div class="text-center">
+                        <div class="add_review review_widget__js">Написать отзыв</div>
+                    </div>
+<script>
+    FirstItemOnPage = 1;
+    LastItemOnPage  = 10;
+    PageCount = 4;
+    PageNumber = 1;
+    PageSize = 10;
+    TotalItemCount = 31;
+</script>
+<div id="datasocial_url" >http://www.pedigree.ru/o-nas/otzyvy</div>
+<div class="comments_list_wrap">
+    <div class="row info">
+        <div class="col-xs-6">
+            <div class="counter">1 - 10  из 31  отзывов.</div>
+        </div>
+        <div class="col-xs-6">
+            <div id="commentsPaginator" class="review-list-paginator simple-pagination"><ul><li class="disabled"><span class="current prev">&lt;</span></li><li class="active"><span class="current">1</span></li><li><span>2</span></li><li><span>3</span></li><li><span class="next">&gt;</span></li></ul></div>
+            <!--<ul class="pager">
+                <li><a href="" class="fa fa-caret-left page-left"></a></li>
+                <li><a href="" class="active">1</a></li>
+                <li><a href="" class="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="" class="fa fa-caret-right page-right"></a></li>
+            </ul>-->
+        </div>
+    </div>
+    <div class="comments_list comments_list__js">
+         <div class="comment">
+            <div class="header">
+                <span class="name">Юлия </span>
+                <span class="date">19.05.2019 11:57:32</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Корм супер исчез запах изо рта рекомендую</div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(227)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(227)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(227)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(227)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Кристина</span>
+                <span class="date">03.05.2019 13:10:50</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">очень хороший корм</div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(223)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(223)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(223)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(223)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Любовь</span>
+                <span class="date">17.04.2019 11:04:24</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Отличный корм, пользуемся всей продукцией Pedigree!!!</div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(216)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(216)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(216)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(216)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Oksana</span>
+                <span class="date">29.03.2019 21:08:19</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Всем Привет.Кажлый человек знает что зубки нужно чистить.Но и конечно и собачкам и щеночком тоже нужно чистить зубки.Им тоже нужен уход.Дак давайте не будем забывать про наших любимых хвостиков.Отличная продукция всегда покупаю палочки для чистки зубов.Моя собака очень их любит.Спасибо за вашу продукцию.👍🌼</div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(207)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(207)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(207)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(207)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Валентина</span>
+                <span class="date">27.03.2019 9:25:20</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Спасибо компаний Марс, корм нам очень нравится!</div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(205)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(205)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(205)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(205)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Татьяна</span>
+                <span class="date">25.03.2019 10:56:47</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Корм нормализовал стул щенка.До этого пробовали несколько других...и мучались жидковатым стулом.Сейчас с педигри тьфу тьфу все хорошо.</div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(203)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(203)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(203)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(203)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Алина</span>
+                <span class="date">23.03.2019 21:16:54</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Очень хороший корм 
+У наших собак восстановилось пищиворение 
+Перестали линять 
+Очень активные и жизни радостные </div>
+
+            <ul class="images">
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(198)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(198)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(198)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(198)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">людмила</span>
+                <span class="date">23.03.2019 4:01:42</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">обожаем вашу продукцию
+</div>
+
+            <ul class="images">
+                <li>
+                    <a href="/photos\Review_197\73f729ca-2870-4d1c-b2ee-f38b838086db.jpg" data-fancybox="group1">
+                        <img src="/photos\Review_197\73f729ca-2870-4d1c-b2ee-f38b838086db.jpg" alt="" class="img-responsive">
+                    </a>
+                </li>
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(197)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(197)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(197)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(197)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Мария</span>
+                <span class="date">19.03.2019 11:20:12</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Отличный корм,очень понравился нашему щенку хотя она очень привередливая.</div>
+
+            <ul class="images">
+                <li>
+                    <a href="/photos\Review_183\44ADD34B-85B0-4C03-887D-78CDE025FEDA.jpeg" data-fancybox="group1">
+                        <img src="/photos\Review_183\44ADD34B-85B0-4C03-887D-78CDE025FEDA.jpeg" alt="" class="img-responsive">
+                    </a>
+                </li>
+                <li>
+                    <a href="/photos\Review_183\1B7F4BF1-2862-4C99-9F43-C753A1B17352.jpeg" data-fancybox="group1">
+                        <img src="/photos\Review_183\1B7F4BF1-2862-4C99-9F43-C753A1B17352.jpeg" alt="" class="img-responsive">
+                    </a>
+                </li>
+                <li>
+                    <a href="/photos\Review_183\D9325D5E-3C0C-47DC-808A-C2BAADCC96BF.jpeg" data-fancybox="group1">
+                        <img src="/photos\Review_183\D9325D5E-3C0C-47DC-808A-C2BAADCC96BF.jpeg" alt="" class="img-responsive">
+                    </a>
+                </li>
+            </ul>
+            <ul class="share list-inline share_review">
+                <li>Поделиться:</li>
+                <li><a href="javascript:;" onclick="FBShareNew(183)" class="fa fa-facebook"></a></li>
+                <li><a href="javascript:;" onclick="VKShareNew(183)" class="fa fa-vk"></a></li>
+                <li><a href="javascript:;" onclick="OKShareNew(183)" class="fa fa-odnoklassniki"></a></li>
+                <li><a href="javascript:;" onclick="TWShareNew(183)" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+         <div class="comment">
+            <div class="header">
+                <span class="name">Кирилл</span>
+                <span class="date">18.03.2019 8:59:28</span>
+            </div>
+            <div class="title"></div>
+            <div class="text">Корм хороший! - так можно сказать про любой корм, но у Pedigree есть одна отличительная особенность. Это то, что его можно употреблять, добавляя в рацион другие продукты. А ежели добавить в другие корма что-либо, то у собаки может развиваться аллергия или что либо ещё. </div>
+
+          
+        </div>
+
+
+
+        
+    </div>
+    <div class="row info">
+        <div class="col-xs-6">
+            <div class="counter">1 - 10  из 31  отзывов.</div>
+        </div>
+        <div class="col-xs-6">
+            <div id="commentsPaginatorFooter" class="review-list-paginator simple-pagination"><ul><li class="disabled"><span class="current prev">&lt;</span></li><li class="active"><span class="current">1</span></li><li><span>2</span></li><li><span>3</span></li><li><span class="next">&gt;</span></li></ul></div>
+            <!--<ul class="pager">
+                <li><a href="" class="fa fa-caret-left page-left"></a></li>
+                <li><a href="" class="active">1</a></li>
+                <li><a href="" class="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="" class="fa fa-caret-right page-right"></a></li>
+            </ul>-->
+        </div>
+    </div>
+</div>
+    
+                    
+                </div>
+
+            </div>
+
+        </section>
+</div>
+
+
+
+
+
+
+         </main>
+
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4">
+                    <ul>
+                        <p>Сервис и помощь</p>
+                        <hr>
+                        <li>Как покупать</li>
+                        <li>Условия возврата</li>
+                        <li>Доставка и оплата</li>
+
+                    </ul>
+
+                </div>
+                <div class="col-xs-4">
+                    <ul>
+                        <p>Сервис и помощь</p>
+                        <hr>
+                        <li>Товары со скидкой</li>
+                        <li>Преимущества</li>
+                        <li>Контакты</li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <p>Будьте в курсе всех новинок</p>
+                    <input type="email" name="email" placeholder="example@gmail.com">
+                    </br>
+                    <input name="data-processing" type="checkbox" value="true" />
+                    <label>
+                        <p>Я принимаю условия политики обработки данных</p>
+                    </label>
+                    <input type="submit" value="Подписаться" />
+                    <section id="social">
+                        <a href="http:/facebook.com"><img src="https://icon-icons.com/icons2/285/PNG/48/social_facebook_box_blue_256_30649.png" height="44"></a>
+                        <a href="http:/instagram.com"><img src="https://img.icons8.com/color/48/000000/instagram-new.png"></a>
+                        <a href="http:/twitter.com"><img src="https://img.icons8.com/color/48/000000/twitter.png"></a>
+                        <a href="http:/pinterest.com"><img src="https://img.icons8.com/color/48/000000/pinterest.png"></a>
+                    </section>
+
+                </div>
+            </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
