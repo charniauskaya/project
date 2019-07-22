@@ -239,6 +239,10 @@ li.active a {
     text-align: center;
     width: 25%;
 }
+#index-tab-2 div {
+    float: left;
+    text-align: center;
+    width: 25%;}
 @media (max-width: 780px) {
     .basket {
         display: none;
@@ -639,10 +643,30 @@ footer {
 main {
     background-color: #F4F4F4;
 }
+.popular div  {
+    overflow: hidden;
 
+}
+.popular div img {
+   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 1s ease-out;
+}
 
+.popular div img:hover {
+    transform: scale(1.1);
 
+}
 
+main .categorii-catalog .categorii-item {
+    
+    transition: all 1s linear;
+}
+
+main .categorii-catalog .categorii-item:hover {
+        transform: scale(1.1);
+}
 /*
 .specTabs {
     display: flex;}
