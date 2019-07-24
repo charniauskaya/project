@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta charset="utf-8">
+    <title>Все об уходе</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="header-top  hidden-xs">
+            <ul>
+                <li>Ваш город: Гродно</li>
+                <a href="../contacts.html">
+                    <li>Магазины и пункты</li>
+                </a>
+                <a href="#modal" id="modalbtn">
+                    <li>Доставка и оплата</li>
+                </a>
+                <div id="modal" class="modal ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">×</span>
+                            <h2>Просим прощения за неудобства</h2>
+                        </div>
+                        <div class="modal-body">
+
+                            <p>Доставка и оплата через сайт временно не работают. Все вопросы по телефону +123 456 789</p>
+                        </div>
+
+                    </div>
+
+            </ul>
+            </div>
+            <div class="center-header row">
+                <div class="col-xs-2 col-lg-2 logo">
+                    <a href="../index.html"><img src="../image/logo.jpg" alt="logotip" height="130px" width="130px"></a>
+                </div>
+                <div class="col-lg-8">
+                    <input name="search" placeholder="Найдется всё для вашего любимчика">
+                </div>
+                <div class="col-lg-2 basket">
+                    <a href="../login.html">
+                        <svg id="basket-2" viewBox="0 0 25 24" width="30px">
+                            <path id="Иконка" class="cls-1" d="M812.707,571.127a1.292,1.292,0,0,0-.983-0.46H793.752l-0.254-1.553A1.309,1.309,0,0,0,792.216,568H789.29a1.334,1.334,0,0,0,0,2.667h1.824l2.42,14.885a1.151,1.151,0,0,0,.058.165,1.235,1.235,0,0,0,.07.2,1.4,1.4,0,0,0,.156.239,1.484,1.484,0,0,0,.124.149,1.153,1.153,0,0,0,.251.172,0.977,0.977,0,0,0,.145.087,1.215,1.215,0,0,0,.478.1h14.307a1.334,1.334,0,0,0,0-2.667h-13.2l-0.216-1.333h14.721a1.312,1.312,0,0,0,1.287-1.143l1.3-9.335A1.358,1.358,0,0,0,812.707,571.127Zm-2.482,2.206L809.855,576h-4.634v-2.667h5Zm-6.3,0V576h-3.9v-2.667h3.9Zm0,4V580h-3.9v-2.667h3.9Zm-5.2-4V576h-3.9a0.608,0.608,0,0,0-.192.04l-0.44-2.707h4.534Zm-3.883,4h3.883V580h-3.45ZM805.221,580v-2.667h4.446L809.3,580h-4.075Zm-8.453,8a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,796.768,588Zm11.7,0a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,808.473,588Z" transform="translate(-788 -568)"></path>
+                        </svg><span> Корзина</span></a>
+                </div>
+            </div>
+            <div>
+                <nav>
+
+                    <ul>
+                        <li class="dropdown">
+                            <a href="../catalog.html" class="dropdown-toggle" data-toggle="dropdown"> КАТАЛОГ</a>
+                            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                                <li><a tabindex="-1" href="../dryFood/dryFood.html">Сухие рационы</a></li>
+                                <li><a tabindex="-1" href="../vitamins/allVitamins.html">Витамины</a></li>
+                                <li><a tabindex="-1" href="../new_product.html">Лакомства</a></li>
+                                <li><a tabindex="-1" href="../toys/toys.html">Игрушки</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="../care/care.html">УХОД</a></li>
+                        <li><a href="../education/education.html">ВОСПИТАНИЕ</a></li>
+                        <li>
+                            <a href="../signin/signin.html">
+                                <div class="cabinet">
+                                    <a href="../login.html">
+                                        <svg id="user" viewBox="0 0 24 24">
+                                            <path id="Иконка" class="cls-1" d="M912,153a12,12,0,1,0,12,12A12,12,0,0,0,912,153Zm0.036,17.661h-5.2c0-3.748,3.292-3.747,4.023-4.728l0.084-.447a3.581,3.581,0,0,1-1.751-3.241c0-1.932,1.257-3.5,2.807-3.5s2.807,1.567,2.807,3.5a3.6,3.6,0,0,1-1.724,3.229l0.1,0.508c0.8,0.933,3.984.994,3.984,4.679h-5.126Z" transform="translate(-900 -153)"></path>
+                                        </svg><span>Вход в личный кабинет</span></a>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+    </header>
+
+    <main>
+
+        <div class="showCase cBg"  style="background-image: url(image/dryFood.jpg);">
+            <h1>Сухие корма для собак</h1>
+            <div class="boneIcon"><img src="image/bone.png" alt="Bone"></div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row">
+
+                <div class="col-xs-2">
+
+                    <aside>
+
+                        <div class="row prFilter">
+
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <h3>Возраст собаки</h3></li>
+
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb0-0" data-tag="Puppy" data-tagtype="Life Stage">
+                                    <label>Щенок</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb0-1" data-tag="Adult" data-tagtype="Life Stage">
+                                    <label for="cb0-1">Взрослый</label>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <h3>Тип породы</h3></li>
+
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb1-0" data-tag="Small" data-tagtype="Size">
+                                    <label for="cb1-0">Маленькая</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb1-1" data-tag="Medium" data-tagtype="Size">
+                                    <label for="cb1-1">Средняя</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb1-2" data-tag="Large" data-tagtype="Size">
+                                    <label for="cb1-2">Крупная</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb1-3" data-tag="Mini" data-tagtype="Size">
+                                    <label for="cb1-3">Миниатюрная</label>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <h3>Тип корма</h3></li>
+
+                                <li>
+                                    <input type="checkbox" checked="" class="cb" id="cb2-0" data-tag="Dry" data-tagtype="Food Type">
+                                    <label for="cb2-0">Сухой</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb2-1" data-tag="Wet-pouch" data-tagtype="Food Type">
+                                    <label for="cb2-1">Влажный</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb2-2" data-tag="Dentastix and Jointcare" data-tagtype="Food Type">
+                                    <label for="cb2-2">Уход за зубами</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="cb" id="cb2-3" data-tag="Treats" data-tagtype="Food Type">
+                                    <label for="cb2-3">Лакомства</label>
+                                </li>
+                            </ul>
+                            <div class="col-xs-3 buttons">
+                                <button class="btn btnLearnMore co2" id="btnReset">Сбросить</button>
+                                </br>
+                                <button class="btn btnLearnMore co3" id="btnFilter">Применить</button>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-xs-10">
+
+                    <div class=" productList">
+
+                        <div class=" product">
+
+                            <a href="dryChickenFeedWith2.html">
+                                <div class="dryFood"><img src="image/dryChickenFeedWith2.jpeg" alt="PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей" width="200px"></div>
+
+                                <h4 itemprop="name">PEDIGREE<sup>®</sup> для щенков всех пород с 2 месяцев, полнорационный корм с курицей</h4>
+                                <span class="btnLearnMore btn co2">Узнать больше</span>
+                            </a>
+
+                        </div>
+                        <div class=" product">
+
+                            <a href="dryChickenFeedWith6.html">
+                                <div itemprop="image" class="dryFood"><img src="image/dryChickenFeedWith6.jpeg" alt="PEDIGREE® для щенков крупных пород, полнорационный корм с 6 месяцев с курицей"></div>
+
+                                <h4 itemprop="name">PEDIGREE<sup>®</sup> для щенков крупных пород, полнорационный корм с 6 месяцев с курицей</h4>
+                                <span class="btnLearnMore btn co2">Узнать больше</span>
+                            </a>
+
+                        </div>
+                        <div class=" product">
+
+                            <a href="dryBeefFoodForSmall.html">
+                                <div itemprop="image" class="image"><img src="image/dryBeefFoodForSmall.jpeg" alt="PEDIGREE® для взрослых собак маленьких пород, полнорационный корм с говядиной"></div>
+
+                                <h4 itemprop="name">PEDIGREE<sup>®</sup> для взрослых собак маленьких пород, полнорационный корм с говядиной</h4>
+                                <span class="btnLearnMore btn co2">Узнать больше</span>
+                            </a>
+                        </div>
+
+                        <div class=" product">
+
+                            <a href="dryBeefFoodForAll.html">
+                                <div itemprop="image" class="image"><img src="image/dryBeefFoodForAll.jpeg" alt="PEDIGREE® для взрослых собак всех пород, полнорационный корм с говядиной"></div>
+
+                                <h4 itemprop="name">PEDIGREE<sup>®</sup> для взрослых собак всех пород, полнорационный корм с говядиной</h4>
+                                <span class="btnLearnMore btn co2">Узнать больше</span>
+                            </a>
+
+                        </div>
+                        <div class=" product">
+
+                            <a href="dryBeefFoodForBig.html">
+                                <div itemprop="image" class="image"><img src="image/dryBeefFoodForBig.jpeg" alt="PEDIGREE® для взрослых собак крупных пород, полнорационный корм с говядиной"></div>
+
+                                <h4 itemprop="name">PEDIGREE<sup>®</sup> для взрослых собак крупных пород, полнорационный корм с говядиной</h4>
+                                <span class="btnLearnMore btn co2">Узнать больше</span>
+                            </a>
+
+                        </div>
+                        <div class="  product">
+
+                            <a href="dryBeefFoodForMini.html">
+                                <div itemprop="image" class="image"><img src="image/dryBeefFoodForMini.jpeg" alt="PEDIGREE® для взрослых собак миниатюрных пород, полнорационный корм с говядиной"></div>
+
+                                <h4 itemprop="name">PEDIGREE<sup>®</sup> для взрослых собак миниатюрных пород, полнорационный корм с говядиной</h4>
+                                <span class="btnLearnMore btn co2">Узнать больше</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container onANote">
+            <div class="col-xs-12">
+                <p>
+                    Для того, чтобы собака была здоровой, активной и ухоженным необходимо правильное питание, то есть в рационе должны быль корма высокого качества.
+                </p>
+                <p>
+                    Многие собаководы кормят своих питомцев натуральной пищей, которую самостоятельно покупают в магазинах и готовят, так как придерживаются мнения о вреде сухого корма для собак. И это действительно так в случае, если выбрать неправильно и купить корм без консультации с ветеринаром.
+                </p>
+                <p>
+                    Корма для собак и щенков должны быть сбалансированы таким образом, чтобы удовлетворять потребность в БЖУ, витаминах, минералах и иных элементах. При выборе готового корма для любимого питомца стоит учесть его размер, породу, возрастной фактор, аллергенность, отсутствие или наличие стерилизации и хронических болезней. Сухие корма также оказывают положительное влияние на зубную эмаль, убирая налет и предупреждая появления камня. Качественные натуральные корма для собак и щенков насыщены полезными веществами и элементами, которые нужны для подержания здоровья.
+                </p>
+                <h2>Классификация кормов для собак и щенков</h2>
+                <p>
+                    Во избежание ошибок в выборе, нужно узнать ингредиенты, используемые в производстве, так как выбирать рацион для своего друга нужно не опираясь на рекламные объявления и цену, чтобы избежать неприятных последствий
+                </p>
+                <h2>Эконом</h2>
+                <p>
+                    Это корма для собак с самой низкой ценой, состав которых состоит по большей части из злаковых культур (кукуруза и пшеница) и субпродуктов, используются всевозможные консерванты, минимум витаминных и минеральных добавок и много соли, потому стоит следить за наличием питья у питомца. К ним относятся - Darling, Chappi, Fun Dog, Pedigree, Терра Пес.
+                </p>
+                <h2>Премиум</h2>
+                <p>
+                    В таких кормах более качественные компоненты используются при производстве, в состав входят натур продукты и субпродукты, а также овощные смеси, однако, доля злаков в составе велика и превосходит мясные ингредиенты. При покупке стоит обязательно внимательно изучить информацию на упаковке, так как содержание красителей, консервантов и иных добавок может быть таким же, как и в кормах низкой стоимости. Премиальные сухие корма для собак разнообразных пород более полезны, чем экономные варианты, поэтому стоит обратить внимание на такие бренды, как, Ecopet, Brit, Titan, MamyNat , Gemon, Наша Марка и Dog Chow производства Purina.
+                </p>
+                <h2>Супер-премиум</h2>
+                <p>
+                    Эти корма обогащены витаминно-минеральным комплексом и до 40% состоят из высококачественного мяса, поэтому являются хорошим вариантом для собак и, при переводе на сухие корма, щенков. Сушеные овощи и полезные злаковые культуры (рис и чечевица) дополняют состав до полноценного рациона с учетом норм БЖУ. Супер премиум корма выпускают 1-st Choice, Brit Care, , Cibau, Hill’s, Josera, Nature’s Protection, Monge, Fitmin, Royal Canin, Optima Nova, Pro Plan.
+                </p>
+
+                <h2>Холистики</h2>
+
+                <p>
+                    По факту являются лучшими представителями сухих кормов супер-премиум класса для собак и благодаря большой доле мясных компонентов, исключительно натуральному содержанию, полезным для здоровья добавкам и травам, идеальны для маленьких щенков. Цены на холистики выше, чем на корма иных классов, но оно того стоит, ведь позаботиться о здоровье питомца – главная задача собаковода. Популярные представители этого класса –Farmina, Grandorf,Natyka, Earthborn, Pronature Holistic и иные.
+                </p>
+                <p>
+                    Для биологически соответствующего питания собак лучше всего подходят корма марок Acana,Orijen.
+                </p>
+
+            </div>
+    </main>
+
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4">
+                    <ul>
+                        <p>Сервис и помощь</p>
+                        <hr>
+                        <li>Как покупать</li>
+                        <li>Условия возврата</li>
+
+                    </ul>
+
+                </div>
+                <div class="col-xs-4">
+                    <ul>
+                        <p>Сервис и помощь</p>
+                        <hr>
+                        <li>Товары со скидкой</li>
+                        <li>Преимущества</li>
+                        <li>Контакты</li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <p>Будьте в курсе всех новинок</p>
+                    <input type="email" name="email" placeholder="example@gmail.com">
+                    <br>
+                    <input name="data-processing" type="checkbox" value="true" />
+                    <label>
+                        <p>Я принимаю условия политики обработки данных</p>
+                    </label>
+                    <input type="submit" value="Подписаться" />
+                    <section id="social">
+                        <a href="http:/facebook.com"><img src="https://icon-icons.com/icons2/285/PNG/48/social_facebook_box_blue_256_30649.png" height="44"></a>
+                        <a href="http:/instagram.com"><img src="https://img.icons8.com/color/48/000000/instagram-new.png"></a>
+                        <a href="http:/twitter.com"><img src="https://img.icons8.com/color/48/000000/twitter.png"></a>
+                        <a href="http:/pinterest.com"><img src="https://img.icons8.com/color/48/000000/pinterest.png"></a>
+                    </section>
+
+                </div>
+            </div>
+
+    </footer>
+    <script src="../script.js"></script>
+    <script src="../modal.js"></script>
+</body>
+
+</html>

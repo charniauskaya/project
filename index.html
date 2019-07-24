@@ -39,13 +39,13 @@
             </div>
             <div class="center-header row">
                 <div class="col-xs-2 col-lg-2 logo">
-                    <a href="index.html"><img src="image/logo.jpg" height="130px" width="130px"></a>
+                    <a href="index.html"><img src="image/logo.jpg" alt="logotip" height="130px" width="130px"></a>
                 </div>
                 <div class="col-lg-8">
                     <input name="search" placeholder="Найдется всё для вашего любимчика">
                 </div>
                 <div class="col-lg-2 basket">
-                    <a href="#basket">
+                    <a href="login.html">
                         <svg id="basket-2" viewBox="0 0 25 24" width="30px">
                             <path id="Иконка" class="cls-1" d="M812.707,571.127a1.292,1.292,0,0,0-.983-0.46H793.752l-0.254-1.553A1.309,1.309,0,0,0,792.216,568H789.29a1.334,1.334,0,0,0,0,2.667h1.824l2.42,14.885a1.151,1.151,0,0,0,.058.165,1.235,1.235,0,0,0,.07.2,1.4,1.4,0,0,0,.156.239,1.484,1.484,0,0,0,.124.149,1.153,1.153,0,0,0,.251.172,0.977,0.977,0,0,0,.145.087,1.215,1.215,0,0,0,.478.1h14.307a1.334,1.334,0,0,0,0-2.667h-13.2l-0.216-1.333h14.721a1.312,1.312,0,0,0,1.287-1.143l1.3-9.335A1.358,1.358,0,0,0,812.707,571.127Zm-2.482,2.206L809.855,576h-4.634v-2.667h5Zm-6.3,0V576h-3.9v-2.667h3.9Zm0,4V580h-3.9v-2.667h3.9Zm-5.2-4V576h-3.9a0.608,0.608,0,0,0-.192.04l-0.44-2.707h4.534Zm-3.883,4h3.883V580h-3.45ZM805.221,580v-2.667h4.446L809.3,580h-4.075Zm-8.453,8a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,796.768,588Zm11.7,0a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,808.473,588Z" transform="translate(-788 -568)"></path>
                         </svg><span> Корзина</span></a>
@@ -58,15 +58,13 @@
                         <li class="dropdown">
                             <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown"> КАТАЛОГ</a>
                             <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
-                                <li><a tabindex="-1" href="dryFood.html">Сухие рационы</a></li>
-                                <li><a tabindex="-1" href="#anotherAction">Влажные рационы</a></li>
-                                <li><a tabindex="-1" href="#">Средства по уходу</a></li>
-                                <li><a tabindex="-1" href="#">Лакомства</a></li>
-                                <li><a tabindex="-1" href="#">Игрушки</a></li>
+                                <li><a tabindex="-1" href="dryFood/dryFood.html">Сухие рационы</a></li>
+                                <li><a tabindex="-1" href="vitamins/allVitamins.html">Витамины</a></li>
+                                <li><a tabindex="-1" href="new_product.html">Лакомства</a></li>
+                                <li><a tabindex="-1" href="toys/toys.html">Игрушки</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="feeding/feeding.html">КОРМЛЕНИЕ</a></li>
                         <li><a href="care/care.html">УХОД</a></li>
                         <li><a href="education/education.html">ВОСПИТАНИЕ</a></li>
                         <li>
@@ -98,22 +96,15 @@
                 <!--Слайды-->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="image/slide1.png" alt="">
+                        <img src="image/slide1.png" alt="Большие скидки для маленьких">
                     </div>
                     <div class="item ">
-                        <img src="image/slide2.png" alt="">
+                        <img src="image/slide2.png" alt="Корм Josera">
                     </div>
                     <div class="item">
-                        <img src="image/slide3.jpg" alt="">
+                        <img src="image/slide3.jpg" alt="Корм премиум">
                     </div>
                 </div>
-                <!--Стрелки переключения слайдов-->
-                <a href="#carousel" class="left carousel-control" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                </a>
-                <a href="#carousel" class="right carousel-control" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                </a>
 
             </div>
 
@@ -125,7 +116,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-8">
                                 <div class="categorii-item bg-blue clearfix">
-                                    <a href="dryFood.html">
+                                    <a href="dryFood/dryFood.html">
                                         <img class="dog-catalog" src="image/dog-catalog.png" alt="Корм для собак">
                                         <div class="col-xs-12 col-sm-6">
                                             <div class="row">
@@ -135,7 +126,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-6">
                                         <div class="row">
-                                            <a href="/catalog/dlya-sobak/sukhie-korma/" class="btn pull-right">Покормить пёсика</a>
+                                            <a href="dryFood/dryFood.html" class="btn pull-right">Покормить пёсика</a>
                                         </div>
                                     </div>
                                 </div>
@@ -151,33 +142,38 @@
                             </div>
                             <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-0">
                                 <div class=" row categorii-item bg-gray clearfix text-center">
-                                    <img class="img-responsive" src="image/treats.png" alt="Лакомства">
-                                    <p>Лакомства</p>
-                                    <a href="/catalog/dlya-koshek/tualet/napolniteli/" class="btn">Выбрать</a>
+                                    <a href="new_product.html">
+                                        <img class="img-responsive" src="image/treats.png" alt="Лакомства">
+                                        <p>Лакомства</p>
+                                    </a>
+                                    <a href="new_product.html" class="btn">Выбрать</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="categorii-item bg-mint clearfix text-center">
-                                    <img class="img-responsive" src="image/toys.png" alt="Игрушки">
-                                    <a href="/catalog/dlya-sobak/igrushki/">Игрушки</a>
-                                </div>
+                                <a href="toys/toys.html">
+                                    <div class="categorii-item bg-mint clearfix text-center">
+                                        <img class="img-responsive" src="image/toys.png" alt="Игрушки">
+                                        <p>Игрушки</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-md-8 col-md-offset-4">
                                 <div class="categorii-item bg-yellow clearfix">
-                                    <img class="img-responsive" src="image/vitamins.png" alt="Покормить котика">
-                                    <div class="col-xs-12 col-sm-6 col-sm-push-6">
-                                        <div class="row">
-                                            <p>Витамины</p>
-                                        </div>
+                                    <a href="vitamins/allVitamins.html"><img class="img-responsive" src="image/vitamins.png" alt="Витамины">
+                                        <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                                            <div class="row">
+                                                <p>Витамины</p>
+                                    </a>
+                                    </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-sm-pull-6">
                                         <div class="row">
-                                            <a href="/catalog/dlya-koshek/sukhoy-korm/" class="btn">Купить</a>
+                                            <a href="vitamins/allVitamins.html" class="btn">Купить</a>
                                         </div>
                                     </div>
                                 </div>
@@ -187,14 +183,13 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-8">
                                 <div class="categorii-item bg-purple clearfix">
-                                    <img class="img-responsive" src="image/care.jpg" alt="Уход и гигиена" width="200px">
-                                    <a href="/catalog/dlya-koshek/sredstva-po-ukhodu/">Средства по уходу</a>
+                                    <a href="new_product.html"><img class="img-responsive" src="image/care.jpg" alt="Уход и гигиена" width="200px"> Средства по уходу</a>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="categorii-item bg-green clearfix text-center">
-                                    <img class="img-responsive" src="image/collars.png" alt="Наполнители для лотков">
-                                    <a href="/catalog/dlya-sobak/osheyniki-shleyki/osheyniki/">Ошейники</a>
+                                    <a href="new_product.html"><img class="img-responsive" src="image/collars.png" alt="Ошейники"> Ошейники
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -212,35 +207,41 @@
                         <div class="row ">
 
                             <div class="col-xs-6">
-                                <a href=" education/social.html"><img src="image/popular_social.jpeg">
+                                <a href=" education/social.html"><img src="image/popular_social.jpeg" alt="Социализация">
                                     <p>Социализация щенка</p>
                                 </a>
                             </div>
-                            <div class="col-xs-6"><img src="image/popular_lie_down.jpeg">
-                                <p>Учим команде "Лежать"</p>
+                            <div class="col-xs-6">
+                                <a href=" education/popular_lie_down.html"><img src="image/popular_lie_down.jpeg" alt="Лежать">
+                                    <p>Учим команде "Лежать"</p>
                             </div>
                         </div>
                         <div class="row ">
-                            <div class="col-xs-6"><img src="image/popular_vaccination.jpg">
-                                <p>Вакцинация собак</p>
+                            <div class="col-xs-6">
+                                <a href=" education/popular_vaccination.html"><img src="image/popular_vaccination.jpg" alt="Вакцинация">
+                                    <p>Вакцинация собак</p>
                             </div>
-                            <div class="col-xs-6"><img src="image/popular_first_aid.jpeg">
-                                <p>Раны у собаки и другие повреждения</p>
+                            <div class="col-xs-6">
+                                <a href=" education/popular_first_aid.html"><img src="image/popular_first_aid.jpeg" alt="Раны">
+                                    <p>Раны у собаки и другие повреждения</p>
                             </div>
                         </div>
                         <div class="row ">
-                            <div class="col-xs-6"><img src="image/popular_games.jpeg">
-                                <p>Увлекательные игры с собакой</p>
+                            <div class="col-xs-6">
+                                <a href=" education/popular_games.html"><img src="image/popular_games.jpeg" alt="Игры с собакой">
+                                    <p>Увлекательные игры с собакой</p>
                             </div>
-                            <div class="col-xs-6"><img src="image/popular_jump_dog.jpeg">
-                                <p>Что делать, если собака прыгает на людей от радости?</p>
+                            <div class="col-xs-6">
+                                <a href=" education/popular_jump_dog.html"><img src="image/popular_jump_dog.jpeg" alt="Прыгать">
+                                    <p>Что делать, если собака прыгает на людей от радости?</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="home_tabs hidden-xs container-fluid">
-                    <ul class="index_tab_trigger list-item ">
+                    <ul id="index_tab_trigger" class="index_tab_trigger list-item ">
                         <li class="active">
                             <a class="dynamic-tab" href="#index-tab-1" data-toggle="tab">Хит</a>
                         </li>
@@ -248,66 +249,67 @@
                             <a class="dynamic-tab" href="#index-tab-2" data-toggle="tab">Новые товары</a>
                         </li>
                     </ul>
+                    <div class="tab-content">
+                        <div id="index-tab-1" class="row tab-pane fade in active">
+                            <div>
+                                <a href="toys/bones.html">
+                                    <img src="toys/image/bones.png" width="157px" alt="косточка">
+                                    <p>Игрушка Ferplast Кость резиновая для чистки зубов собак</p>
+                                </a>
+                            </div>
 
-                    <div id="index-tab-1" class="row ">
-                        <div>
-                            <a href="">
-                                <img src="image/dog_chow.png">
-                                <p>Dog Chow Sensitive корм для чувствительных собак с лососем и рисом (14 кг)</p>
-                            </a>
+                            <div>
+                                <a href="vitamins/vitamins.html">
+                                    <img src="vitamins/image/unitabs.jpg" width="107px" alt="витамины">
+                                    <p>Витамины Unitabs CalciPlus с Q10, кальцием и витамином Д для собак 100 таблеток</p>
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <a href="no_product.html">
+                                    <img src="image/acana_puppy_and_junior.jpg" alt="корм">
+                                    <p>Acana Puppy & Junior беззерновой корм для щенков (11,4 кг)</p>
+                                </a>
+
+                            </div>
+                            <div>
+                                <a href="no_product.html">
+                                    <img src="image/rc_junior_muss.png" alt="мусс">
+                                    <p>Royal Canin Pediatric Starter мусс для щенков всех пород до 2 месяцев (0,195 кг)</p>
+                                </a>
+                            </div>
                         </div>
+                        <div id="index-tab-2" class="row tab-pane fade">
+                            <div>
 
-                        <div>
-                            <a href="">
-                                <img src="image/cc_club.jpg">
-                                <p>Royal Canin Club CC корм для собак всех пород (20 кг)</p>
-                            </a>
+                                <a href="dryFood/dryChickenFeedWith2.html">
+                                    <img src="dryFood/image/dryChickenFeedWith2.jpeg" width="157px" alt="корм">
+                                    <p>PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей</p>
+                                </a>
+                            </div>
 
-                        </div>
+                            <div>
+                                <a href="">
+                                    <img src="dryFood/image/dryChickenFeedWith6.jpeg" width="157px" alt="корм">
+                                    <p>PEDIGREE® для щенков крупных пород, полнорационный корм с 6 месяцев с курицей</p>
+                                </a>
 
-                        <div>
-                            <a href="">
-                                <img src="image/acana_puppy_and_junior.jpg">
-                                <p>Acana Puppy & Junior беззерновой корм для щенков (11,4 кг)</p>
-                            </a>
+                            </div>
 
-                        </div>
-                        <div>
-                            <a href="">
-                                <img src="image/rc_junior_muss.png">
-                                <p>Royal Canin Pediatric Starter мусс для щенков всех пород до 2 месяцев (0,195 кг)</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="index-tab-2" class="row ">
-                        <div>
+                            <div>
+                                <a href="">
+                                    <img src="dryFood/image/dryBeefFoodForSmall.jpeg" width="157px" alt="корм">
+                                    <p>PEDIGREE® для взрослых собак маленьких пород, полнорационный корм с говядиной</p>
+                                </a>
 
-                            <a href="dryFood/dryChickenFeedWith2.html">
-                                <img src="image/dryChickenFeedWith2.jpeg" width="157px">
-                                <p>PEDIGREE® для щенков всех пород с 2 месяцев, полнорационный корм с курицей</p>
-                            </a>
-                        </div>
-
-                        <div>
-                            <a href="">
-                                <img src="image/dryChickenFeedWith6.jpeg" width="157px">
-                                <p>PEDIGREE® для щенков крупных пород, полнорационный корм с 6 месяцев с курицей</p>
-                            </a>
-
-                        </div>
-
-                        <div>
-                            <a href="">
-                                <img src="image/dryBeefFoodForSmall.jpeg" width="157px">
-                                <p>PEDIGREE® для взрослых собак маленьких пород, полнорационный корм с говядиной</p>
-                            </a>
-
-                        </div>
-                        <div>
-                            <a href="">
-                                <img src="image/dryBeefFoodForAll.jpeg" width="157px">
-                                <p>PEDIGREE® для взрослых собак всех пород, полнорационный корм с говядиной</p>
-                            </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="dryFood/image/dryBeefFoodForAll.jpeg" width="157px" alt="корм">
+                                    <p>PEDIGREE® для взрослых собак всех пород, полнорационный корм с говядиной</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -320,8 +322,8 @@
                     <ul>
                         <p>Сервис и помощь</p>
                         <hr>
-                        <li>Как покупать</li>
-                        <li>Условия возврата</li>
+                        <li><a href="footer/kupit.html">Как покупать</a></li>
+                        <li><a href="footer/return.html">Условия возврата</a></li>
 
                     </ul>
 
@@ -330,9 +332,7 @@
                     <ul>
                         <p>Сервис и помощь</p>
                         <hr>
-                        <li>Товары со скидкой</li>
-                        <li>Преимущества</li>
-                        <li>Контакты</li>
+                        <li><a href="contacts.html">Контакты</a></li>
 
                     </ul>
                 </div>
@@ -357,6 +357,7 @@
 
     </footer>
     <script src="script.js"></script>
+    <script src="modal.js"></script>
 </body>
 
 </html>

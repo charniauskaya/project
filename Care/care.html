@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <meta charset="utf-8">
-    <title>Интернет-магазин Песмаркет</title>
+    <title>Все об уходе</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                 <div id="modal" class="modal ">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <span class="close">?</span>
+                            <span class="close">×</span>
                             <h2>Просим прощения за неудобства</h2>
                         </div>
                         <div class="modal-body">
@@ -34,18 +34,18 @@
                         </div>
 
                     </div>
-                </div>
+
             </ul>
             </div>
             <div class="center-header row">
                 <div class="col-xs-2 col-lg-2 logo">
-                    <a href="../index.html"><img src="../image/logo.jpg" height="130px" width="130px"></a>
+                    <a href="../index.html"><img src="../image/logo.jpg" alt="logotip" height="130px" width="130px"></a>
                 </div>
                 <div class="col-lg-8">
                     <input name="search" placeholder="Найдется всё для вашего любимчика">
                 </div>
                 <div class="col-lg-2 basket">
-                    <a href="#basket">
+                    <a href="../login.html">
                         <svg id="basket-2" viewBox="0 0 25 24" width="30px">
                             <path id="Иконка" class="cls-1" d="M812.707,571.127a1.292,1.292,0,0,0-.983-0.46H793.752l-0.254-1.553A1.309,1.309,0,0,0,792.216,568H789.29a1.334,1.334,0,0,0,0,2.667h1.824l2.42,14.885a1.151,1.151,0,0,0,.058.165,1.235,1.235,0,0,0,.07.2,1.4,1.4,0,0,0,.156.239,1.484,1.484,0,0,0,.124.149,1.153,1.153,0,0,0,.251.172,0.977,0.977,0,0,0,.145.087,1.215,1.215,0,0,0,.478.1h14.307a1.334,1.334,0,0,0,0-2.667h-13.2l-0.216-1.333h14.721a1.312,1.312,0,0,0,1.287-1.143l1.3-9.335A1.358,1.358,0,0,0,812.707,571.127Zm-2.482,2.206L809.855,576h-4.634v-2.667h5Zm-6.3,0V576h-3.9v-2.667h3.9Zm0,4V580h-3.9v-2.667h3.9Zm-5.2-4V576h-3.9a0.608,0.608,0,0,0-.192.04l-0.44-2.707h4.534Zm-3.883,4h3.883V580h-3.45ZM805.221,580v-2.667h4.446L809.3,580h-4.075Zm-8.453,8a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,796.768,588Zm11.7,0a2,2,0,1,1-1.951,2A1.977,1.977,0,0,1,808.473,588Z" transform="translate(-788 -568)"></path>
                         </svg><span> Корзина</span></a>
@@ -56,17 +56,15 @@
 
                     <ul>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> КАТАЛОГ</a>
-                            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop5">
-                                <li><a tabindex="-1" href="">Сухие рационы</a></li>
-                                <li><a tabindex="-1" href="#">Влажные рационы</a></li>
-                                <li><a tabindex="-1" href="#">Средства по уходу</a></li>
-                                <li><a tabindex="-1" href="#">Лакомства</a></li>
-                                <li><a tabindex="-1" href="#">Игрушки</a></li>
+                            <a href="../catalog.html" class="dropdown-toggle" data-toggle="dropdown"> КАТАЛОГ</a>
+                            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                                <li><a tabindex="-1" href="../dryFood/dryFood.html">Сухие рационы</a></li>
+                                <li><a tabindex="-1" href="../vitamins/allVitamins.html">Витамины</a></li>
+                                <li><a tabindex="-1" href="../new_product.html">Лакомства</a></li>
+                                <li><a tabindex="-1" href="../toys/toys.html">Игрушки</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="../feeding/feeding.html">КОРМЛЕНИЕ</a></li>
                         <li><a href="../care/care.html">УХОД</a></li>
                         <li><a href="../education/education.html">ВОСПИТАНИЕ</a></li>
                         <li>
@@ -86,7 +84,15 @@
     </header>
 
     <main>
+        <div class="showCase cBg" style="background-image: url(image/caring.jpg);">
+            <h1>Все об уходе за животными</h1>
+        </div>
+        <div class="container-fluid popular">
 
+            <div class="row ">
+                <h1> К сожалению страница  пуста </h1>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="container-fluid">
@@ -95,8 +101,8 @@
                     <ul>
                         <p>Сервис и помощь</p>
                         <hr>
-                        <li>Как покупать</li>
-                        <li>Условия возврата</li>
+                        <li><a href="../footer/kupit.html">Как покупать</a></li>
+                        <li><a href="../footer/return.html">Условия возврата</a></li>
 
                     </ul>
 
@@ -105,9 +111,7 @@
                     <ul>
                         <p>Сервис и помощь</p>
                         <hr>
-                        <li>Товары со скидкой</li>
-                        <li>Преимущества</li>
-                        <li>Контакты</li>
+                        <li><a href="../contacts.html">Контакты</a></li>
 
                     </ul>
                 </div>
@@ -132,6 +136,7 @@
 
     </footer>
     <script src="../script.js"></script>
+    <script src="../modal.js"></script>
 </body>
 
 </html>
