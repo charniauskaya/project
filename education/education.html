@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <meta charset="utf-8">
-    <title>Интернет-магазин Песмаркет</title>
+    <title>Социализация щенка</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
             </div>
             <div class="center-header row">
                 <div class="col-xs-2 col-lg-2 logo">
-                    <a href="../index.html"><img src="../image/logo.jpg" height="130px" width="130px"></a>
+                    <a href="../index.html"><img src="../image/logo.jpg" alt="logotip" height="130px" width="130px"></a>
                 </div>
                 <div class="col-lg-8">
                     <input name="search" placeholder="Найдется всё для вашего любимчика">
@@ -58,11 +58,10 @@
                         <li class="dropdown">
                             <a href="../catalog.html" class="dropdown-toggle" data-toggle="dropdown"> КАТАЛОГ</a>
                             <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
-                                <li><a tabindex="-1" href="../dryFood.html">Сухие рационы</a></li>
-                                <li><a tabindex="-1" href="#anotherAction">Влажные рационы</a></li>
-                                <li><a tabindex="-1" href="#">Средства по уходу</a></li>
-                                <li><a tabindex="-1" href="#">Лакомства</a></li>
-                                <li><a tabindex="-1" href="#">Игрушки</a></li>
+                                <li><a tabindex="-1" href="../dryFood/dryFood.html">Сухие рационы</a></li>
+                                <li><a tabindex="-1" href="../vitamins/allVitamins.html">Витамины</a></li>
+                                <li><a tabindex="-1" href="../new_product.html">Лакомства</a></li>
+                                <li><a tabindex="-1" href="../toys/toys.html">Игрушки</a></li>
                             </ul>
                         </li>
 
@@ -85,40 +84,43 @@
     </header>
 
     <main>
-        <div class="showCase cBg" style="background-image: url(image/education.jpg);"><img src="">
+        <div class="showCase cBg" style="background-image: url(image/education.jpg);">
             <h1>Воспитание</h1>
         </div>
         <div class="container-fluid popular">
 
             <div class="row ">
 
-                 <div class="col-xs-6">
-                                <a href=" education/social.html"><img src="image/social.jpg" alt="Социализация щенка">
-                                    <p>Социализация щенка</p>
-                                </a>
-                            </div>
-                            <div class="col-xs-6"> <a href=" education/popular_lie_down.html"><img src="image/popular_lie_down.jpeg"  alt="Учим команде">
-                                <p>Учим команде "Лежать"</p>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-xs-6"> <a href=" education/popular_vaccination.html"><img src="image/popular_vaccination.jpg"  alt="Вакцинация собак">
-                                <p>Вакцинация собак</p>
-                            </div>
-                            <div class="col-xs-6"> <a href=" education/popular_first_aid.html"><img src="image/popular_first_aid.jpeg"  alt="Раны у собаки и другие повреждения">
-                                <p>Раны у собаки и другие повреждения</p>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-xs-6"> <a href=" education/popular_games.html"><img src="image/popular_games.jpeg"  alt="Увлекательные игры с собакой">
-                                <p>Увлекательные игры с собакой</p>
-                            </div>
-                            <div class="col-xs-6"> <a href=" education/popular_jump_dog.html"><img src="image/popular_jump_dog.jpeg"  alt="Что делать, если собака прыгает на людей от радости?">
-                                <p>Что делать, если собака прыгает на людей от радости?</p>
-                            </div>
+                <div class="col-xs-6">
+                    <a href=" social.html"><img src="image/social.jpg" alt="Социализация щенка">
+                        <p>Социализация щенка</p>
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href=" popular_lie_down.html"><img src="image/popular_lie_down.jpeg" alt="Учим команде">
+                        <p>Учим команде "Лежать"</p>
+                </div>
             </div>
-        </div>
-
+            <div class="row ">
+                <div class="col-xs-6">
+                    <a href=" popular_vaccination.html"><img src="image/popular_vaccination.jpg" alt="Вакцинация собак">
+                        <p>Вакцинация собак</p>
+                </div>
+                <div class="col-xs-6">
+                    <a href=" popular_first_aid.html"><img src="image/popular_first_aid.jpeg" alt="Раны у собаки и другие повреждения">
+                        <p>Раны у собаки и другие повреждения</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-xs-6">
+                    <a href="popular_games.html"><img src="image/popular_games.jpeg" alt="Увлекательные игры с собакой">
+                        <p>Увлекательные игры с собакой</p>
+                </div>
+                <div class="col-xs-6">
+                    <a href=" popular_jump_dog.html"><img src="image/popular_jump_dog.jpeg" alt="Что делать, если собака прыгает на людей от радости?">
+                        <p>Что делать, если собака прыгает на людей от радости?</p>
+                </div>
+            </div>
         </div>
 
     </main>
@@ -129,8 +131,8 @@
                     <ul>
                         <p>Сервис и помощь</p>
                         <hr>
-                        <li>Как покупать</li>
-                        <li>Условия возврата</li>
+                        <li><a href="../footer/kupit.html">Как покупать</a></li>
+                        <li><a href="../footer/return.html">Условия возврата</a></li>
 
                     </ul>
 
@@ -139,9 +141,7 @@
                     <ul>
                         <p>Сервис и помощь</p>
                         <hr>
-                        <li>Товары со скидкой</li>
-                        <li>Преимущества</li>
-                        <li>Контакты</li>
+                        <li><a href="../contacts.html">Контакты</a></li>
 
                     </ul>
                 </div>
